@@ -74,16 +74,7 @@ namespace BattleshipGameConsole
                     Console.WriteLine(s);
                 }
 
-                foreach(ShipModel ship in player.ListOfShips)
-                {
-                    string t = "";
-                    for(int i=0; i< ship.ListOfShipCells.Count;i++)
-                    {
-                        t = t + "X: " + ship.ListOfShipCells[i].X + " Y: " + ship.ListOfShipCells[i].Y + "       ";
-                    }
-                    Console.WriteLine(t);
-
-                }
+             
                 Console.WriteLine("");
                 Console.WriteLine("");
             }
